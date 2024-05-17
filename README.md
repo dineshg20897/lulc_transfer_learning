@@ -15,10 +15,10 @@ Machine Learning model to classify various types of land cover using high-resolu
 This project involves the design and implementation of a machine learning model to classify various types of land cover using high-resolution satellite imagery and Transfer Learning. Transfer learning is a technique where a model developed for one task is reused as the starting point for a model on a second task. It leverages pre-trained models, which have been trained on large datasets and extensive computational resources, to solve new but related problems more efficiently. This approach is particularly useful when the new task has limited data, as the pre-trained model's learned features and representations can significantly enhance performance and reduce training time. For instance, a model like ResNet-50, which has been trained on the ImageNet dataset, can be fine-tuned for specific tasks such as land cover classification using high-resolution satellite imagery, by adjusting its weights to adapt to the new dataset.
 
 ### Transfer Learning
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Transfer.png?raw=true" width="800"><br><br>
 
-### RESNEt 50
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
+### RESNET 50
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Resnet.png?raw=true" width="800"><br><br>
 
 
 ## Objective
@@ -34,7 +34,7 @@ To enhance the quality of the image patches, satellite images with low cloud cov
 
 The EuroSAT dataset is a widely used benchmark for land cover classification tasks in the field of remote sensing. It consists of high-resolution satellite imagery collected by the Sentinel-2 satellite, part of the European Space Agency's (ESA) Copernicus Earth Observation program. The dataset is designed to facilitate the development and evaluation of machine learning models for classifying different types of land cover.
 
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Dataset.png?raw=true" width="800"><br><br>
 
 ### Key Features of the EuroSAT Dataset
 
@@ -76,9 +76,9 @@ The EuroSAT dataset is a widely used benchmark for land cover classification tas
 
 The Images below show the learning curves during the training phase
 
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Loss.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Learning.png?raw=true" width="800"><br><br>
 
 And this is the confusion matrix
 
-<img src="https://github.com/dineshg20897/mnist-gan-pytorch/blob/main/assets/GAN.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/lulc_transfer_learning/blob/main/assets/Conf.png?raw=true" width="800"><br><br>
